@@ -1,4 +1,4 @@
-var CACHE_VERSION = "v3";
+var CACHE_VERSION = "v4";
 var CACHE = "task-manager-" + CACHE_VERSION;
 
 // Call install event
@@ -27,7 +27,7 @@ self.addEventListener("install", (event) => {
                 "./tache.css",
                 "./tache.html",
                 "./tache.js",
-                "./tache.css",
+                "./taches.css",
                 "./taches.html",
                 "./taches.js",
                 "./tasks.png",
