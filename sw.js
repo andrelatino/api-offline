@@ -1,4 +1,4 @@
-var CACHE_VERSION = "v2";
+var CACHE_VERSION = "v3";
 var CACHE = "task-manager-" + CACHE_VERSION;
 
 // Call install event
@@ -6,10 +6,31 @@ self.addEventListener("install", (event) => {
     event.waitUntil(
         caches.open(CACHE).then((cache) => {
             cache.addAll([
+                "./client.css",
+                "./client.html",
+                "./client.js",
+                "./global.css",
+                "./global.js",
                 "./index.html",
-                "./main.css",
-                "./main.js",
-                "./sw.js"
+                "./login.css",
+                "./login.js",
+                "./login1.svg",
+                "./manifest.json",
+                "./service.css",
+                "./service.html",
+                "./service.js",
+                "./services.html",
+                "./services.js",
+                "./services.css",
+                "./solar-panel1.svg",
+                "./sw.js",
+                "./tache.css",
+                "./tache.html",
+                "./tache.js",
+                "./tache.css",
+                "./taches.html",
+                "./taches.js",
+                "./tasks.png",
             ])
         })
     )
