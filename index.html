@@ -25,9 +25,15 @@
         </div>
       </form>
     </div>
-    <div id="version">v14</div> 
+    <div id="version">v1</div> 
     <footer>
       <script src="./login.js"></script>
+      <script src="./sw.js"></script> 
+      <script>
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('./sw.js');
+        }
+    </script>  
     </footer>
   </body>
 </html>
