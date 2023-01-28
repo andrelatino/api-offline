@@ -52,3 +52,4 @@ script.src = './sw.js';
 // Append the elements to the <head>
 document.head.appendChild(link);
 document.head.appendChild(script);
+
