@@ -31,7 +31,7 @@ self.addEventListener("install", (event) => {
                 "./taches.css",
                 "./taches.html",
                 "./taches.js",
-                "./tasks.png",
+                "./tasks.png"
             ])
         })
     )
