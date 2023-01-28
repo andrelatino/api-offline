@@ -3,11 +3,7 @@
 // var client_id = localStorage.getItem("client_id");
 
 window.onload = function() {
-  if (!navigator.onLine) {
-    isOffline();
-  } else {
-    getData();
-  }
+  getData();
 }
 
 function getData(){

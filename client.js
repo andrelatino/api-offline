@@ -1,11 +1,7 @@
 // document.cookie = "name=value; SameSite=None; Secure";
 
 window.onload = function() {
-  if (!navigator.onLine) {
-    isOffline();
-  } else {
-    getData();
-  }
+  getData();
 }
 
 function logoutUser() {
