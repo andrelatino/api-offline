@@ -1,4 +1,4 @@
-var CACHE_VERSION = "v10";
+var CACHE_VERSION = "v11";
 var CACHE = "task-manager-" + CACHE_VERSION;
 
 // Call install event
