@@ -1,4 +1,4 @@
-var CACHE_VERSION = "v6";
+var CACHE_VERSION = "v7";
 var CACHE = "task-manager-" + CACHE_VERSION;
 
 // Call install event
@@ -9,7 +9,7 @@ self.addEventListener("install", (event) => {
                 "./client.css",
                 "./client.html",
                 "./client.js",
-                "./https://x8ki-letl-twmt.n7.xano.io/api:3JwI6wg3/client",              
+                "https://x8ki-letl-twmt.n7.xano.io/api:3JwI6wg3/client",              
                 "./global.css",
                 "./global.js",
                 "./index.html",
