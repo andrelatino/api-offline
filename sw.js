@@ -1,4 +1,4 @@
-var CACHE_VERSION = "v12";
+var CACHE_VERSION = "v13";
 var CACHE = "task-manager-" + CACHE_VERSION;
 
 // Call install event
@@ -9,11 +9,7 @@ self.addEventListener("install", (event) => {
                 "./client.css",
                 "./client.html",
                 "./client.js",
-                "https://x8ki-letl-twmt.n7.xano.io/api:3JwI6wg3/client",  
-                "https://x8ki-letl-twmt.n7.xano.io/api:3JwI6wg3/service-client?client_id=2", 
-                "https://x8ki-letl-twmt.n7.xano.io/api:3JwI6wg3/service-client?client_id=5",
-                "https://x8ki-letl-twmt.n7.xano.io/api:3JwI6wg3/service-client?client_id=6",
-                "https://x8ki-letl-twmt.n7.xano.io/api:3JwI6wg3/service-client?client_id=1",                
+                "https://x8ki-letl-twmt.n7.xano.io/api:3JwI6wg3/client",                            
                 "./global.css",
                 "./global.js",
                 "./index.html",
@@ -24,6 +20,10 @@ self.addEventListener("install", (event) => {
                 "./service.css",
                 "./service.html",
                 "./service.js",
+                "https://x8ki-letl-twmt.n7.xano.io/api:3JwI6wg3/service-client?client_id=2", 
+                "https://x8ki-letl-twmt.n7.xano.io/api:3JwI6wg3/service-client?client_id=5",
+                "https://x8ki-letl-twmt.n7.xano.io/api:3JwI6wg3/service-client?client_id=6",
+                "https://x8ki-letl-twmt.n7.xano.io/api:3JwI6wg3/service-client?client_id=1",
                 "./services.html",
                 "./services.js",
                 "./services.css",
@@ -32,9 +32,15 @@ self.addEventListener("install", (event) => {
                 "./tache.css",
                 "./tache.html",
                 "./tache.js",
+                "https://x8ki-letl-twmt.n7.xano.io/api:3JwI6wg3/tache-client?service_id=4&client_id=2",
+                "https://x8ki-letl-twmt.n7.xano.io/api:3JwI6wg3/tache-client?service_id=11&client_id=2",
+                "https://x8ki-letl-twmt.n7.xano.io/api:3JwI6wg3/tache-client?service_id=6&client_id=5",
+                "https://x8ki-letl-twmt.n7.xano.io/api:3JwI6wg3/tache-client?service_id=7&client_id=6",                
+                "https://x8ki-letl-twmt.n7.xano.io/api:3JwI6wg3/tache-client?service_id=1&client_id=1",                
                 "./taches.css",
                 "./taches.html",
                 "./taches.js",
+
                 "./tasks.png"
             ])
         })
