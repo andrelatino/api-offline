@@ -1,4 +1,4 @@
-var CACHE_VERSION = "v15";
+var CACHE_VERSION = "v16";
 var CACHE = "task-manager-" + CACHE_VERSION;
 
 // Call install event
@@ -9,7 +9,9 @@ self.addEventListener("install", (event) => {
                 "./client.css",
                 "./client.html",
                 "./client.js",
-                "https://x8ki-letl-twmt.n7.xano.io/api:3JwI6wg3/client",                              
+                "https://x8ki-letl-twmt.n7.xano.io/api:3JwI6wg3/client",
+                "https://x8ki-letl-twmt.n7.xano.io/api:3JwI6wg3/service",
+                "https://x8ki-letl-twmt.n7.xano.io/api:3JwI6wg3/tache",
                 "./global.css",
                 "./global.js",
                 "./index.html",

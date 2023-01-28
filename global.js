@@ -19,7 +19,6 @@ document.body.appendChild(closeBtn);
 var popup = document.createElement('div');
 popup.innerHTML = `
 <div id="popup">
-<a href = 'client.html'> Accueil </a>
 <a href = 'client.html'> Clients </a>
 <a href = 'services.html'> Services </a>
 <a href = 'taches.html'> Taches </a>
